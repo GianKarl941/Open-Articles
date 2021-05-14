@@ -26,7 +26,7 @@ I get that idea from [Luke Smith](https://lukesmith.xyz/). Why? because he
 inpires me to create websites that are not bloat, functional, and easy to use.
 Ans specifically, [based.cooking](https://based.cooking). I follow that same
 idea that "You get what you need to see" and I hope that would help other web
-developers to make their websites minimal and fnctional to use.
+developers to make their websites minimal and functional to use.
 
 
 # Can I contribute to this projrct?
