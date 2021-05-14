@@ -1,144 +1,71 @@
-<!doctype>
+<!DOCTYPE html>
 <html>
 
-        <head>
-                <!-- Title of the webpage -->
-                <title>Brief Introduction of Vim</title>
-                
-                <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                
-                <!-- CSS style -->
+    <head>
 
-                <style>
-                
-                body {
-                        background-color:#1a1a1a;
-                        
-                }
-                
-                div {
-                        Background-color:darkblue;
-                        width: 400px;
-                        border: 10px solid pink;
-                        padding:10px;
-                        margin: 10px;
-                        color: White;
-                        font-family: Arial;
-                }
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Getting started with vim</title>
 
-                P{
-                        font-size: 18px;
-                        font-family: Arial;
-                        color: White; 
-                }
+    </head>
 
-                p.Basics_of_Vim{
-                        font-size: 25px;
-                        font-family: Arial;
-                        font-weight: bold;
-                }
+    <body>
+        <h1>Getting started with vim</h1>
+        <p>If you find vim confusing, hard to use, and difficult for editing
+        text, don't worry because we got you covered. So today, we're going to
+        talk about simple vim commands for begginers.</p>
 
-                li{
-                        color: White;
-                        font-family: Arial;
-                        font-size: 18px;
-                }
+        <hr>
 
-                </style>
-        </head>
+        <h1>The basic commands that you need to know right now</h1>
 
-         <!-- Body -->
+        <p><br><br>
 
-        <body>
+            :w FILE.txt             Means to save the file<br><br>
 
-        <!-- Headings -->
+            :q                      to quit the program<br><br>
 
-        <div><h1><strong>Brief Introduction of Vim</strong></h1></div>
+            :r                      to redo the changes<br><br>
 
-        <!-- Paragraph -->
+            :u                      tp undo the changes<br><br>
 
-        <p>
-        So today, we're going to show you the basics and advance keybindings, commands, modals
-        and other functionality that are available in <strong>Vim</strong>. Scroll down the page to see it.
+        </p>
+        
+        <hr>
+
+        <h1>How to make vim look appealing?</h1>
+
+        <p>Do you want to make vim look like an appealing text editor? Yes, you
+        can do that in vim right away by entering this commands.</p>
+
+        <p><br><br>
+
+            :colorscheme evening<br><br>
+
+            :set signcolumn=yes<br><br>
+
+            :set nu<br><br>
 
         </p>
 
-        <p>
-        If you are new to Vim, please click this link to be familiarized with Vim
-        <u><a href = "https://www.vim.org/about.php" target= "_blank">What is vim?</a></u> <br>
-        
-        </p>
-        
-        <p class = "Basics_of_Vim">
-        <br>Basics of Vim <br>
+        <p>Now your text editor looks appealing and neat, but reloading im vim
+        means that you have to set it up all over again. Don't worry about
+        it, you can save those changes permanently in vim by creating a
+        <i>.vimrc</i> file where you can save the setting by typing the
+        right syntax in <i>.vimrc</i> file to load them automatically when
+        you start vim.</p>
 
-        </p>
-        <!-- List -->
-        
-        <!--Save as any file you want save-->
-        <!--Inserting any text or code that you want to enter-->
-        <!--This will enable you to only view the file and enter command mode-->
-        <!--to quit the program after you save it-->
-
-        <ul>
-                <li><p><u><strong>:w  </strong></u></p></li>
-                <p>Save any file that you want to save</p>
-                
-                <li><p><u><strong>i</strong></u></p></li>
-                <p>Inserting any text or code that you want to enter</p>
-
-                <li><p><u><strong>ESC key</strong></u></p></li>
-                <p>This will enable you to only view the file and enter command mode</p>
-
-                <li><p><u><strong>:q </strong></u></p></li> 
-                <p>To quit the program after you save it</p>
-
-        </ul>
+        <h3> Follow these steps:</h3>
 
         <p>
-                These will help you to get starting with Vim. Of course, there's plenty of more keybindings and even some 
-                specific ones that you may not use them that frequently, but you can search for help by opening Vim and typing
-                in the command <strong><u>:help</u></strong>. This will help your find the specific keybindings or other features
-                that Vim offers. <u>(Keep in mind that not everything that you want to find is there so it would be better to try 
-           search the web for other specific information)</u></p>
-        <p>
-                After you done trying Vim, there's plenty of more things that you can do in Vim. But for now, you need
-                to learn some few more things in Vim before diving into the technical parts in Vim. Don't worry there's
-                plenty of cool things that you can do in Vim, just make sure that you are ready to learn some new things
-                because things can start to be complicated once we start to discover more things about Vim.</p>
-        
-        <ul>
-                <li><p><u><strong>v  </strong></u></p></li></ul>
-                <p>This is Visual mode, this will help you copy text in Vim. <u>(keep in mind about that you can't
-                paste it to other programs other than Vim so use the mouse cursor if you want to copy and paste it
-                to other programs)</u></p>
-               
                 <ol>
-                        <li><p>To use visual mode, first, find the line of text that you want to modify, delete, or copy.<p></li>
-                        <br><img src="selecting.png" alt="((Selecting the text that you need))"
-                        style="max-width:100%;height:auto;"><br>
 
-                        <br><li><p>Second, check if you are in visual mode or not. <p></li>
-                        <br><img src="visual.png" alt="((Make sure that you are on visual mode))"
-                        style="max-width:100%;height:auto;"><br>
+                    <li>Open your terminal by finding it in a start menu or
+                        entering the shortcut keys <b>Ctrl+alt+t</b></li>
 
-                        <br><li><p>Third, check if you are in visual mode or not. <p></li>
-                        <br><img src="grab.png" alt="((Selecting the text))"
-                        style="max-width:100%;height:auto;"><br>
-                        
-                        <br><li><p>Fourth, well... you can do anything but for this example, I'm going to copy
-                        the line of code and paste it. <p></li>
-                        <br><img src="copy.png" alt="((Pasting the text))"
-                        style="max-width:100%;height:auto;"><br>
                 </ol> 
-                
-                <p>
+        </P>
 
-                There's plenty of more things that you can do in vim but this is out of scope so you better find different website 
-                that talks about vim or figure it out to your self; After all, there's plenty of more thing that you can do in vim
-                anyways so this is the end of the introduction so I hope you have fun learing it.
+    </body>
 
-                </p>
-
-        </body> 
 </html>
