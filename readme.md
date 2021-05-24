@@ -1,8 +1,8 @@
-# [Open Articles](https://giankarl941.github.io/oarticles/)
+# [Hall of text editors](https://giankarl941.github.io/halloftexteditor/)
 
 ---
 
-### What is Open Articles?
+### What is Hall of text editors?
 
 It is the idea of creating a website that people can share their knowledge and
 and help poeple out when they are confused or needed a help. The goal of this
