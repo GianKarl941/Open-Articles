@@ -1,4 +1,4 @@
-# Open Articles (OA)
+# [Open Articles](https://giankarl941.github.io/oarticles/)
 
 ---
 
@@ -24,12 +24,12 @@ whatsoever and that's really the difference between other websites.
 
 I get that idea from [Luke Smith](https://lukesmith.xyz/). Why? because he
 inpires me to create websites that are not bloat, functional, and easy to use.
-Ans specifically, [based.cooking](https://based.cooking). I follow that same
+And specifically, [based.cooking](https://based.cooking). I follow that same
 idea that "You get what you need to see" and I hope that would help other web
 developers to make their websites minimal and functional to use.
 
 
-# Can I contribute to this projrct?
+# Can I contribute to this project?
 
 Well for now, I haven't plan the core basics of how my wesite looks and function
 but you can suggest ideas if you want to.
