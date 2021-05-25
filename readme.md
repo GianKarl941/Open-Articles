@@ -4,12 +4,10 @@
 
 ### What is Hall of text editors?
 
-It is the idea of creating a website that people can share their knowledge and
-and help poeple out when they are confused or needed a help. The goal of this
-hobbiest project is that I can rebuild the interface that I think is what
-people would want and designing it in a way that people can browse the articles
-in the website indefinetly.
-
+This is basically a website where you can read these articles and learn them
+in such a way that it's not hard to look around or learning new things about
+your text editor. Mainly any text editor can be mention on this website as long
+as they are helpful to a lot of people.
 
 ### How is it different from other websites like Wikipedia, Qoura, Wikihow, etc.?
 
